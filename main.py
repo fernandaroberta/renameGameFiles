@@ -4,7 +4,7 @@ import csv
 
 dir = "F:\\其他文6\\"
 
-with open("C:\\Backup jogos\\names.txt") as csv_file:
+with open("names.txt") as csv_file:
     files = os.listdir(dir)
     csv_reader = csv.reader(csv_file)
     for row in csv_reader:
